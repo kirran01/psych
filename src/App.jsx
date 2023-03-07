@@ -1,15 +1,19 @@
-import { useState } from 'react'
+import About from './pages/about';
+import Moreinfo from './pages/moreinfo';
+import Home from './pages/home';
 import { Route, Routes } from 'react-router-dom'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Nav from './components/nav';
 
 function App() {
-
   return (
     <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <Nav />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/more-info' element={<Moreinfo />} />
+      </Routes>
     </div>
   )
 }
