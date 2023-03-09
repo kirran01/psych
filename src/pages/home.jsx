@@ -11,11 +11,14 @@ import Mindful from '../../public/img/mindful.png'
 import Subc from '../../public/img/subc.png'
 
 const Home = () => {
-    const [pics, setPics] = useState([{ id: 1, img: CBT, title: 'Cognitive Behavioural Therapy', caption: '' }, { id: 2, img: Maslow, title: 'Humanistic Therapy', caption: '' }, { id: 3, img: Mindful, title: 'Mindfulness', caption: '' }, { id: 4, img: Subc, title: 'Psychoanalysis', caption: '' }])
+    const [pics, setPics] = useState([{ id: 1, img: CBT, title: 'Cognitive Behavioural Therapy', URL: 'https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/cognitive-behavioural-therapy-cbt/overview/#:~:text=Cognitive%20behavioural%20therapy%20(CBT)%20is,mental%20and%20physical%20health%20problems.' },
+     { id: 2, img: Maslow, title: 'Humanistic Therapy', URL: 'https://www.bacp.co.uk/about-therapy/types-of-therapy/humanistic-therapy/#:~:text=The%20humanistic%20approach%20is%20about,with%20the%20world%20around%20you.' }, 
+     { id: 3, img: Mindful, title: 'Mindfulness', URL: 'https://www.verywellhealth.com/mindfulness-therapy-5212796#:~:text=Summary-,Mindfulness%20therapy%20is%20a%20type%20of%20talk%20therapy%20that%20focuses,and%20to%20reduce%20automatic%20responses.' }, 
+     { id: 4, img: Subc, title: 'Psychoanalysis', URL: 'https://tavistockandportman.nhs.uk/care-and-treatment/treatments/psychoanalytic-psychotherapy/#:~:text=Psychoanalytic%20psychotherapy%20is%20a%20talking,may%20contribute%20to%20your%20problems.' }])
     return (
-        <div className='pt-16 p-3 flex flex-col items-center'>
+        <div className='pt-16 p-3 flex flex-col items-center fade-in'>
             <div className='flex flex-col items-center'>
-                <p className='m-3 text-3xl text-center'>Kirran Kirpalani - General Counselor, MA</p>
+                <p className='m-5 text-3xl text-center'>Kirran Kirpalani - General Counselor, MA</p>
                 <p className='m-3 text-2xl text-center'>General Adolescent and Adult Counseling Accross the Caribbean, ages 13+</p>
                 <img className='w-32 h-32 m-2 object-cover rounded-full border-4 border-black' src={Prof} />
             </div>
