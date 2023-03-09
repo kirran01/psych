@@ -19,11 +19,11 @@ const About = () => {
                 <p className='italic underline text-lg'>Education</p>
                 <div className=''>
                     <div className='my-2 fade-in'>
-                        <img className='h-16 my-2' src={DU2} />
+                        <img className='h-16 my-2 rounded-md shadow-md' src={DU2} />
                         <p className='italic text-md'>University of Denver Bachelors of Arts in Psychology</p>
                     </div>
                     <div className='my-2 fade-in'>
-                        <img className='h-16 my-2' src={Bbk2} />
+                        <img className='h-16 my-2 rounded-md' src={Bbk2} />
                         <p className='italic text-md'>Birkbeck University of London Masters in Health and Clinical Psychological Sciences</p>
                     </div>
                 </div>
