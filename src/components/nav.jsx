@@ -10,7 +10,7 @@ const Nav = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [copied, setCopied] = useState(false);
     const copyContact = () => {
-        navigator.clipboard.writeText('1(868)3937199').then(() => {
+        navigator.clipboard.writeText('18683937199').then(() => {
             setCopied(true);
             setTimeout(() => {
                 setCopied(false);
@@ -39,23 +39,27 @@ const Nav = () => {
         <nav className='fixed w-full'>
             <ul className='flex bg-slate-900 text-white p-4 items-center justify-between'>
                 <div className='flex items-center'>
-                    <Link className='flex items-center'>
+                    <Link className='flex items-center mx-1' to={'/'}>
                         <HomeIcon />
                     </Link>
-                    <li className='flex lg:collapse md:collapse'>
+                    <li className='flex lg:collapse md:collapse mx-1' onClick={openModal} >
                         <MenuIcon />
                     </li>
                 </div>
                 <div className='hidden lg:flex md:flex'>
-                    <Link className='mx-2'>
+                    <Link className='mx-2' to={'/about'}>
                         About
                     </Link>
-                    <Link className='mx-2'>
-                        More Info
+                    <Link className='mx-2' to={'/more-info'}>
+                        FAQ
                     </Link>
-                    <Link className='mx-2'>
-                        Contact
-                    </Link>
+                    <Modal
+                        isOpen={modalIsOpen}
+                        onRequestClose={closeModal}
+                        style={customStyles}
+                    >
+                        <Mobilenav />
+                    </Modal>
                 </div>
             </ul>
         </nav>
