@@ -15,6 +15,10 @@ const About = () => {
                 <p className='italic underline'>My Approach</p>
                 <p>My approach to counseling is collaborative and client-centered. I work with clients to identify their goals and develop a personalized plan for achieving them. Whether you're struggling with anxiety, depression, relationship issues, or other challenges, I'm here to help.</p>
             </div>
+            <div className='p-3'>
+                <p className='italic underline'>Location</p>
+                <p>I am currently available for online sessions only. In person meetings will begin after august 3rd when the office space is available.</p>
+            </div>
             <div className='p-3 flex flex-col'>
                 <p className='italic underline'>Education</p>
                 <div className=''>
