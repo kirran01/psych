@@ -1,14 +1,13 @@
 import React from 'react';
 
-const Picturecard = () => {
+const Picturecard = ({ key, pic }) => {
     return (
-        <div>
+        <div className='bg-slate-50 border-2 rounded-lg shadow-md m-2 flex flex-col items-center'>
             <div>
-                <img src="" alt="img" />
+                <img className='h-28 m-1' src={pic.img} />
             </div>
-            <div>
-                <p>caption</p>
-                <p>description</p>
+            <div className=''>
+                <p className='m-1'>{pic.title}</p>
             </div>
         </div>
     );

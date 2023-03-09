@@ -8,16 +8,6 @@ import { Link, Router, useNavigate } from 'react-router-dom'
 
 const Nav = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
-    const [copied, setCopied] = useState(false);
-    const copyContact = () => {
-        navigator.clipboard.writeText('18683937199').then(() => {
-            setCopied(true);
-            setTimeout(() => {
-                setCopied(false);
-            }, 3000);
-        });
-    };
-
     function openModal() {
         setIsOpen(true);
     }
@@ -58,7 +48,7 @@ const Nav = () => {
                         onRequestClose={closeModal}
                         style={customStyles}
                     >
-                        <Mobilenav />
+                        <Mobilenav closeModal={closeModal} />
                     </Modal>
                 </div>
             </ul>

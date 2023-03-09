@@ -1,6 +1,7 @@
 import React from 'react';
 import Prof from '../../public/img/prof.png'
 import Footer from '../components/footer';
+import Picturecard from '../components/picturecard';
 import { useState } from 'react';
 import { InlineWidget } from "react-calendly";
 import { PopupWidget } from "react-calendly";
@@ -10,7 +11,7 @@ import Mindful from '../../public/img/mindful.png'
 import Subc from '../../public/img/subc.png'
 
 const Home = () => {
-    const [pics, setPics] = useState([{ id: 1, img:CBT, title:'Cognitive Behavioural Therapy (CBT)', caption:'' },{ id: 1, img:CBT, title:'Cognitive Behavioural Therapy (CBT)', caption:'' },{ id: 1, img:CBT, title:'Cognitive Behavioural Therapy (CBT)', caption:'' }])
+    const [pics, setPics] = useState([{ id: 1, img: CBT, title: 'Cognitive Behavioural Therapy', caption: '' }, { id: 2, img: Maslow, title: 'Humanistic Therapy', caption: '' }, { id: 3, img: Mindful, title: 'Mindfulness', caption: '' }, { id: 4, img: Subc, title: 'Psychoanalysis', caption: '' }])
     return (
         <div className='pt-16 p-3 flex flex-col items-center'>
             <div className='flex flex-col items-center'>
@@ -22,6 +23,15 @@ const Home = () => {
                 <p className='text-xl underline mb-2'>Contact Info</p>
                 <p>Phone: 3937199</p>
                 <p>Email: Kirran-@live.com</p>
+            </div>
+            <div className='flex flex-wrap justify-center'>
+                {
+                    pics.map(p => {
+                        return (
+                            <Picturecard key={p.id} pic={p} />
+                        )
+                    })
+                }
             </div>
             <Footer />
             <PopupWidget
