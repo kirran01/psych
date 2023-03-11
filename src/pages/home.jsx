@@ -19,7 +19,7 @@ const Home = () => {
         <div className='pt-16 p-3 flex flex-col items-center fade-in'>
             <div className='flex flex-col items-center'>
                 <p className='m-5 text-3xl text-center'>Kirran Kirpalani - General Counselor, MA</p>
-                <p className='m-3 text-2xl text-center'>General Adolescent and Adult Counseling Accross the Caribbean, ages 13+</p>
+                <p className='m-3 text-2xl text-center'>General Adolescent and Adult Counseling Across the Caribbean, ages 13+</p>
                 <img className='w-32 h-32 m-2 object-cover rounded-full border-4 border-black' src={Prof} />
             </div>
             <div className='flex flex-col items-center m-3'>
