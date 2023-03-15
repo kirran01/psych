@@ -8,3 +8,4 @@ I chose to make it in react and use tailwind so it's easier to update when need 
 
 Thank you! 🌊 ✌🏽
 
+<img className='w-40 h-40 m-2 object-cover rounded-full border-4 border-black' src={pic1} />

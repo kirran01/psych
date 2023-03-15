@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/footer';
+import pic2 from '../../public/img/k11.jpg'
 import DU2 from '../../public/img/DU2.png'
 import Bbk2 from '../../public/img/bbk2.jpg'
 
@@ -7,9 +8,12 @@ const About = () => {
     return (
         <div className='pt-16 p-3 flex flex-col fade-in'>
             <p className='text-3xl m-5 text-center'>About Me</p>
-            <div className='p-3'>
+            <div className='p-3 flex flex-wrap'>
+                <img className='h-40 border-2 rounded-md m-2' src={pic2} alt="" />
+                <div>
                 <p className='italic underline text-lg'>Who Am I?</p>
                 <p className='fade-in'>Hello! I'm Kirran Kirpalani, and I'm a 27-year-old counselor from Trinidad and Tobago 🇹🇹. I'm passionate about helping people overcome their challenges and lead more fulfilling lives. As a licensed counselor with a Bachelor's degree in Psychology from the University of Denver and a Master's degree in Health and Clinical Psychological Sciences from Birkbeck University of London, I bring a wealth of knowledge and experience to my work.</p>
+                </div>
             </div>
             <div className='p-3'>
                 <p className='italic underline text-lg'>My Approach</p>
