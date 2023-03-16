@@ -23,13 +23,15 @@ const Home = () => {
     { id: 4, title: 'Psychoanalysis', description: 'Psychoanalytic therapy helps clients gain insight into their unconscious thoughts and behaviors in order to address and resolve conflicts that may be causing emotional distress or problematic patterns of behavior.', URL: 'https://tavistockandportman.nhs.uk/care-and-treatment/treatments/psychoanalytic-psychotherapy/#:~:text=Psychoanalytic%20psychotherapy%20is%20a%20talking,may%20contribute%20to%20your%20problems.' }])
     return (
         <div className='pt-14 flex flex-col items-center fade-in'>
-            <div className='relative'>
-                <img className='object-cover w-full' src={view} />
-                <div className='absolute inset-0 flex flex-col items-center justify-center'>
-                    <p className='m-5 text-lg lg:text-3xl md:text-3xl text-center text-white bg-slate-800 rounded-lg p-1'>Kirran Kirpalani - General Counselor, MA</p>
-                    <p className='m-3 text-lg md:m-0 lg:m-0 mb-5 lg:text-2xl md:text-2xl text-center text-white bg-slate-800 rounded-lg p-2'>General Adolescent and Adult Counseling Across the Caribbean (ages 13+)</p>
+            <section className='relative m-5'>
+                <div className='z-20 relative text-white container text-center mx-auto'>
+                    <p className='leading-normal text-lg lg:text-3xl md:text-3xl bg-slate-700 m-10 rounded-md p-2'>Kirran Kirpalani - General Counselor, MA</p>
+                    <p className='leading-normal text-lg lg:text-3xl md:text-3xl bg-slate-700 m-10 rounded-md p-2'>General Adolescent and Adult Counseling Across the Caribbean (ages 13+)</p>
                 </div>
-            </div>
+                <div className='absolute inset-0 h-auto z-10'>
+                    <img className='h-full w-full object-fit-cover rounded-md' src={view} />
+                </div>
+            </section>
             <div className='flex flex-wrap justify-center p-3 py-10'>
                 {
                     wCards.map(wc => {
@@ -41,7 +43,7 @@ const Home = () => {
             </div>
             <div className='flex flex-col lg:flex-row justify-center flex-wrap items-center m-3 bg-slate-50 w-full p-3 py-5'>
                 <div className='mx-10 m-3 shrink-0'>
-                <img className='h-60 border-2 border-black' src={prof1} />
+                    <img className='h-60 border-2 border-black' src={prof1} />
                 </div>
                 <div className='flex flex-col items-center text-center border-2 p-8 m-3'>
                     <p className='text-xl underline mb-2'>Contact Info</p>
