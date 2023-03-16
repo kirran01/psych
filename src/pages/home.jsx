@@ -41,16 +41,18 @@ const Home = () => {
                 }
             </div>
             <div className='flex flex-col lg:flex-row justify-center flex-wrap items-center m-3 bg-slate-50 w-full p-3 py-5'>
-                <div className='mx-10 m-3 shrink-0'>
-                    <img className='h-60 border-2 border-black' src={prof1} />
-                </div>
+                
                 <div className='flex flex-col items-center text-center border-2 p-8 m-3'>
                     <p className='text-xl underline mb-2'>Contact Info</p>
                     <p className='m-1'>Phone: 3937199</p>
                     <p className='m-1'>Email: Kirran-@live.com</p>
                 </div>
-                <div className='m-5 mx-10'>
-                    <Link className='bg-black hover:bg-neutral-800 text-white p-3' to={'/about'}>About</Link>
+                <div className='mx-10 m-3 shrink-0'>
+                    <img className='h-60 border-2 border-black' src={prof1} />
+                </div>
+                <div className='m-5 mx-10 flex flex-col items-center border-2 p-8'>
+                    <Link className='bg-black hover:bg-neutral-800 text-white p-3 m-1' to={'/about'}>About</Link>
+                    <p className='m-2 text-sm'>More info about me</p>
                 </div>
             </div>
             <Footer />

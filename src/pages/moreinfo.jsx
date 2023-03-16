@@ -24,7 +24,7 @@ const Moreinfo = () => {
             </div>
             <div className='m-2 p-3 fade-in'>
                 <p className='underline text-lg mb-3'>Location?</p>
-                <p>Currently I am only available for online sessions. In-person sessions will resume august 3rd after the office space is available.</p>
+                <p>Currently I am only available for online sessions. In-person sessions will resume August 3rd after the office space is available.</p>
             </div>
           
         <Footer/>
