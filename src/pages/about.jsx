@@ -27,12 +27,12 @@ const About = () => {
                 <p className='italic underline text-lg text-center'>Education</p>
                 <div className='flex justify-center'>
                     <div className='m-5 flex flex-col items-center fade-in border-2 p-3 w-60'>
-                        <img className='h-16 m-3 rounded-md border-2 border-black' src={DU2} />
-                        <p className='italic text-md'>University of Denver</p>
+                        <img className='h-16 m-3 rounded-md border-2 border-black shrink-0' src={DU2} />
+                        <p className='italic text-md text-center'>University of Denver</p>
                         <p className='text-center'>Bachelors in Psychology</p>
                     </div>
                     <div className='m-5 flex flex-col items-center fade-in border-2 p-3 w-60'>
-                        <img className='h-16 m-3 rounded-md border-2 border-black' src={Bbk2} />
+                        <img className='h-16 m-3 rounded-md border-2 border-black shrink-0' src={Bbk2} />
                         <p className='italic text-md text-center'>Birkbeck University of London </p>
                         <p className='text-center'>Masters in Psychology</p>
                     </div>
