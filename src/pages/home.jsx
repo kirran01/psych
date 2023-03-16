@@ -1,13 +1,15 @@
 import React from 'react';
-import view from '../../public/img/view2.jpg'
+import view from '../../public/img/view2.jpg';
+import prof1 from '../../public/img/k1.jpg'
+import { Link } from 'react-router-dom';
 import Footer from '../components/footer';
 import Wordcard from '../components/wordcard';
 import { useState } from 'react';
 import { PopupWidget } from "react-calendly";
-import CBT from '../../public/img/CBT.png'
-import Maslow from '../../public/img/maslow1.png'
-import Mindful from '../../public/img/mindful.png'
-import Subc from '../../public/img/subc.png'
+import CBT from '../../public/img/CBT.png';
+import Maslow from '../../public/img/maslow1.png';
+import Mindful from '../../public/img/mindful.png';
+import Subc from '../../public/img/subc.png';
 
 const Home = () => {
     const [pics, setPics] = useState([{ id: 1, img: CBT, title: 'Cognitive Behavioural Therapy', URL: 'https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/cognitive-behavioural-therapy-cbt/overview/#:~:text=Cognitive%20behavioural%20therapy%20(CBT)%20is,mental%20and%20physical%20health%20problems.' },
@@ -37,10 +39,18 @@ const Home = () => {
                     })
                 }
             </div>
-            <div className='flex flex-col items-center m-3'>
-                <p className='text-xl underline mb-2'>Contact Info</p>
-                <p>Phone: 3937199</p>
-                <p>Email: Kirran-@live.com</p>
+            <div className='flex flex-col lg:flex-row justify-center flex-wrap items-center m-3 bg-slate-50 w-full p-3 py-5'>
+                <div className='mx-10 m-3 shrink-0'>
+                <img className='h-60 border-2 border-black' src={prof1} />
+                </div>
+                <div className='flex flex-col items-center text-center border-2 p-8 m-3'>
+                    <p className='text-xl underline mb-2'>Contact Info</p>
+                    <p className='m-1'>Phone: 3937199</p>
+                    <p className='m-1'>Email: Kirran-@live.com</p>
+                </div>
+                <div className='m-5 mx-10'>
+                    <Link className='bg-black hover:bg-neutral-800 text-white p-3' to={'/about'}>About</Link>
+                </div>
             </div>
             <Footer />
             <PopupWidget
