@@ -23,15 +23,14 @@ const Home = () => {
     { id: 4, title: 'Psychoanalysis', description: 'Psychoanalytic therapy helps clients gain insight into their unconscious thoughts and behaviors in order to address and resolve conflicts that may be causing emotional distress or problematic patterns of behavior.', URL: 'https://tavistockandportman.nhs.uk/care-and-treatment/treatments/psychoanalytic-psychotherapy/#:~:text=Psychoanalytic%20psychotherapy%20is%20a%20talking,may%20contribute%20to%20your%20problems.' }])
     return (
         <div className='pt-14 flex flex-col items-center fade-in'>
-            <section className='relative m-5'>
-                <div className='z-20 relative text-white container text-center mx-auto'>
-                    <p className='leading-normal text-lg lg:text-3xl md:text-3xl bg-slate-700 m-10 rounded-md p-2'>Kirran Kirpalani - General Counselor, MA</p>
-                    <p className='leading-normal text-lg lg:text-3xl md:text-3xl bg-slate-700 m-10 rounded-md p-2'>General Adolescent and Adult Counseling Across the Caribbean (ages 13+)</p>
+            <div className="w-full bg-cover bg-center h-60 bg-view">
+                <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
+                    <div className="text-center">
+                        <p className="text-white text-2xl uppercase md:text-3xl m-3">Kirran Kirpalani - General Counselor, MA</p>
+                        <p className="text-white text-2xl uppercase md:text-3xl m-3">General Adolescent and Adult Counseling Across the Caribbean (ages 13+)</p>
+                    </div>
                 </div>
-                <div className='absolute inset-0 h-auto z-10'>
-                    <img className='h-full w-full object-fit-cover rounded-md' src={view} />
-                </div>
-            </section>
+            </div>
             <div className='flex flex-wrap justify-center p-3 py-10'>
                 {
                     wCards.map(wc => {
