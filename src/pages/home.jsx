@@ -38,7 +38,7 @@ const Home = () => {
                             <Wordcard key={wc.id} wordCard={wc} />
                         )
                     })
-                }its been so long since i have written a function 
+                }
             </div>
             <div className='flex flex-col lg:flex-row justify-center flex-wrap items-center m-3 bg-slate-50 w-full p-3 py-5'>
                 
