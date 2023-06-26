@@ -26,8 +26,8 @@ const Home = () => {
             <div className="w-full bg-cover bg-center h-60 bg-view">
                 <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">
-                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Kirran Kirpalani - Private Counselor</p>
-                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Offering Counseling services across the Caribbean for all ages</p>
+                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Kirran Kirpalani - Private Counselor/Therapist</p>
+                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Offering Counseling/Therapy services across the Caribbean for all ages</p>
                     </div>
                 </div>
             </div>
