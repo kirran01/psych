@@ -26,11 +26,17 @@ const Home = () => {
             <div className="w-full bg-cover bg-center h-60 bg-view">
                 <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">
-                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Kirran Kirpalani - General Counselor, MA</p>
-                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">General Adolescent and Adult Counseling Across the Caribbean (ages 13+)</p>
+                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Kirran Kirpalani - Private Counselor</p>
+                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Offering Counseling services across the Caribbean for all ages</p>
                     </div>
                 </div>
             </div>
+            <div className='bg-slate-50'>
+                <p className='p-8 py-12 pt-14'>Hello and welcome to the start of your journey to healing and growth. I believe that every individual deserves support and guidance on their journey towards well-being. I am here to provide you with the care and understanding you need. Through evidence-based approaches and a personalized approach, I am dedicated to helping you navigate life's challenges, cultivate resilience, and discover your true potential. Whether you're seeking therapy for yourself, your child, employee, or your family, I am committed to creating a safe and nurturing space where healing can flourish. I'm honored to join you on this transformative path.</p>
+            </div>
+            <div>
+                <p className='underline text-center text-md lg:text-2xl md:text-3xl pt-6'>What to expect</p>
+                <p className='text-center italic pt-6'>Here are some brief practical explanations of a handful of the methods I utilize in my practice...</p>
             <div className='flex flex-wrap justify-center p-3 py-10'>
                 {
                     wCards.map(wc => {
@@ -39,6 +45,7 @@ const Home = () => {
                         )
                     })
                 }
+            </div>
             </div>
             <div className='flex flex-col lg:flex-row justify-center flex-wrap items-center m-3 bg-slate-50 w-full p-3 py-5'>
                 
@@ -59,7 +66,7 @@ const Home = () => {
             <PopupWidget
                 url="https://calendly.com/kirran-1"
                 rootElement={document.getElementById("root")}
-                text="Schedule an Appointment"
+                text="Schedule a Consultation"
                 textColor="#ffffff"
                 color="black"
             />
