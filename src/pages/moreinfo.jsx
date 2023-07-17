@@ -20,7 +20,7 @@ const Moreinfo = () => {
                 <p className='underline text-3xl text-center pb-3'>Rates</p>
                 <p className='text-center'><span className='underline' >Video call & telephone sessions: </span>$50TTD per hour long session</p>
                 <p className='text-center'><span className='underline' >In-person session at office location: </span>$50TTD per hour long session</p>
-                <p className='text-center'><span className='underline' >In-house session(I travel to you): </span>Port of Spain: $150TTD / East $200TTD / South $250TTD</p>
+                <p className='text-center'><span className='underline' >In-house session(I travel to you): </span>Port of Spain: $100TTD / East $150TTD / South $200TTD</p>
             </div>
             <div className='m-2 p-3 py-6 fade-in text-center'>
                 <p className='underline text-3xl text-center mb-3'>Who should consider therapy?</p>
