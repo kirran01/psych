@@ -18,9 +18,9 @@ const Moreinfo = () => {
             </div>
             <div className='m-2 p-3 py-10 fade-in bg-slate-50'>
                 <p className='underline text-3xl text-center pb-3'>Rates</p>
-                <p className='text-center'><span className='underline' >Video call & telephone sessions: </span>$100USD per hour long session</p>
+                <p className='text-center'><span className='underline' >Telehealth: </span>$100USD per hour long session</p>
                 <p className='text-center'><span className='underline' >In-person session at office location (Coming soon): </span>$100USD per hour long session</p>
-                <p className='text-center'><span className='underline' >In-house session(I travel to you): </span>150USD+ Depending on location</p>
+                <p className='text-center'><span className='underline' >In-house session(I travel to you): </span>150USD+ depending on location</p>
             </div>
             <div className='m-2 p-3 py-6 fade-in text-center'>
                 <p className='underline text-3xl text-center mb-3'>Who should consider therapy?</p>
@@ -30,6 +30,10 @@ const Moreinfo = () => {
                 <p>3: Coping with life transitions such as a major loss, career change, or illness.</p>
                 <p>4: Dealing with stress or burnout.</p>
                 <p>5: Seeking personal growth and self-improvement</p>
+            </div>
+            <div className='m-2 p-3 py-6 fade-in text-center'>
+                <p className='underline text-3xl text-center mb-3'>Insurance</p>
+                <p>I am currently only accepting out-of-pocket payment as I work on obtaining Licensure which will enable me to receive insurance payments.</p>
             </div>
             <Footer />
         </div>
