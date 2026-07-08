@@ -19,7 +19,7 @@ const About = () => {
                     <p className='italic underline text-3xl'>Quick Biography</p>
                 </div>
                 <div className='border-2 p-10 m-5 mx-10 w-96 shrink-0'>
-                    <p className='fade-in'>My name is Kirran Kirpalani and I'm a 27-year-old counselor from Trinidad and Tobago. I'm passionate about helping people overcome their challenges and lead more fulfilling lives. As a licensed counselor with a Bachelor's degree in Psychology from the University of Denver and a Master's degree in Health and Clinical Psychological Sciences from Birkbeck University of London, and more than 7 years of industry experience, I bring a wealth of knowledge and expertise to my work.</p>
+                    <p className='fade-in'>My name is Kirran Kirpalani and I'm a 30-year-old counselor, originally from Trinidad and Tobago, currently earning licensure in Seattle W.A.. I'm passionate about helping people overcome their challenges and lead more fulfilling lives. As a licensed counselor with a Bachelor's degree in Psychology from the University of Denver and a Master's degree in Health and Clinical Psychological Sciences from Birkbeck University of London, and currently pursuing LMHC licensure via Bellevue Universities MSc in Clinical Psychology, and years of in-field experience, I am confident that I will be able to help you change, grow, and live in better alignment with your personal values</p>
                 </div>
                 <div className='m-5 mx-10 shrink-0'>
                     <img className='h-80 border-2 border-black m-2 shrink-0' src={pic2} alt="" />
@@ -38,7 +38,7 @@ const About = () => {
                 <p className='italic underline text-3xl text-center m-5'>Experience (Continued)</p>
                 </div>
                 <div className='border-2 p-10 mx-5'>
-                    <p className='fade-in'>As a seasoned counselor, I have gained expertise in a range of psychological disciplines, including individual and group counseling, Applied Behavioral Analysis (ABA), Neuropsychology (administration and evaluation of psychometric tests and evaluations), Art Therapy, Occupational Therapy, Research and more. With several years of experience across multiple states in the US and in Trinidad and Tobago, I have had the opportunity to work with individuals from diverse backgrounds and cultures. My approach to counseling is grounded in evidence-based practices, and I am committed to helping my clients achieve their goals and live their best lives.</p>
+                    <p className='fade-in'>As a seasoned counselor, I have gained expertise in a range of psychological disciplines, including individual and group counseling. I have several years of experience across multiple states in the US and in Trinidad and Tobago, and have had the opportunity to work with individuals from diverse backgrounds and cultures. My approach to counseling is grounded in evidence-based practices, and I am genuinely enthralled by the process of helping my clients achieve their goals and live their best lives.</p>
                 </div>
             </div>
             <Footer />
