@@ -19,7 +19,7 @@ const About = () => {
                     <p className='italic underline text-3xl'>Quick Biography</p>
                 </div>
                 <div className='border-2 p-10 m-5 mx-10 w-96 shrink-0'>
-                    <p className='fade-in'>My name is Kirran Kirpalani and I'm a 30-year-old counselor, originally from Trinidad and Tobago, currently earning licensure in Seattle W.A.. I'm passionate about helping people overcome their challenges and lead more fulfilling lives. As a licensed counselor with a Bachelor's degree in Psychology from the University of Denver and a Master's degree in Health and Clinical Psychological Sciences from Birkbeck University of London, and currently pursuing LMHC licensure via Bellevue Universities MSc in Clinical Psychology, and years of in-field experience, I am confident that I will be able to help you change, grow, and live in better alignment with your personal values</p>
+                    <p className='fade-in'>My name is Kirran Kirpalani and I'm a 30-year-old mental health practitioner, originally from Trinidad and Tobago, and currently earning counseling licensure in Seattle W.A.. I'm passionate about helping people overcome their challenges and lead more fulfilling lives. As a practitioner with a Bachelor's degree in Psychology from the University of Denver and a Master's degree in Health and Clinical Psychological Sciences from Birkbeck University of London, and currently pursuing LMHC licensure via Bellevue Universities MSc in Clinical Psychology, and years of in-field experience, I am confident that I will be able to help you change, grow, and live in better alignment with your personal values.</p>
                 </div>
                 <div className='m-5 mx-10 shrink-0'>
                     <img className='h-80 border-2 border-black m-2 shrink-0' src={pic2} alt="" />
@@ -38,7 +38,7 @@ const About = () => {
                 <p className='italic underline text-3xl text-center m-5'>Experience (Continued)</p>
                 </div>
                 <div className='border-2 p-10 mx-5'>
-                    <p className='fade-in'>As a seasoned counselor, I have gained expertise in a range of psychological disciplines, including individual and group counseling. I have several years of experience across multiple states in the US and in Trinidad and Tobago, and have had the opportunity to work with individuals from diverse backgrounds and cultures. My approach to counseling is grounded in evidence-based practices, and I am genuinely enthralled by the process of helping my clients achieve their goals and live their best lives.</p>
+                    <p className='fade-in'>As a seasoned mental-health practitioner, I have gained expertise in a range of psychological disciplines, including cliical and sub-clinical individual and group work. I have several years of experience across multiple states across the United States and in Trinidad and Tobago, and have had the opportunity to work with individuals from a range diverse backgrounds and cultures. My approach to counseling is grounded in evidence-based practices, and I am genuinely enthralled by the process of helping my clients achieve their goals and figure out how to live their best lives.</p>
                 </div>
             </div>
             <Footer />
