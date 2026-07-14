@@ -23,13 +23,12 @@ const Moreinfo = () => {
                 <p className='text-center'><span className='underline' >In-house session(I travel to you): </span>150USD+ depending on location</p>
             </div>
             <div className='m-2 p-3 py-6 fade-in text-center'>
-                <p className='underline text-3xl text-center mb-3'>Who should consider therapy?</p>
-                <p>Therapy can be beneficial for many different types of people who are experiencing a range of difficulties or challenges. Some common reasons people seek therapy include:</p>
-                <p>1: Clinical mental health issues such as depression, anxiety, or trauma.</p>
-                <p>2: Experiencing relationship or family issues, such as conflict management or communication difficulties.</p>
-                <p>3: Coping with life transitions such as a major loss, career change, or illness.</p>
-                <p>4: Dealing with stress or burnout.</p>
-                <p>5: Seeking personal growth and self-improvement</p>
+                <p className='underline text-3xl text-center mb-3'>Who should consider coaching?</p>
+                <p>Coaching can be beneficial for many different types of people who are experiencing a range of difficulties or challenges. Some common reasons people seek coaching include:</p>
+                <p>1: Experiencing relationship or family issues, such as conflict management or communication difficulties.</p>
+                <p>2: Coping with life transitions such as a major loss, career change, or illness.</p>
+                <p>3: Dealing with stress or burnout.</p>
+                <p>4: Seeking personal growth and self-improvement</p>
             </div>
             <div className='m-2 p-3 py-6 fade-in text-center'>
                 <p className='underline text-3xl text-center mb-3'>Insurance</p>

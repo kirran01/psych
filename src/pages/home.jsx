@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-50">
                     <div className="text-center">
                         <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Kirran Kirpalani AAC - Counselor/Therapist in Training</p>
-                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Offering Coaching services in Seattle W.A.</p>
+                        <p className="text-white text-md lg:text-2xl md:text-3xl m-3">Currently offering Coaching services in Seattle W.A.</p>
                     </div>
                 </div>
             </div>
